@@ -54,7 +54,7 @@ body{
         & .svg{
             position: relative;
             cursor: pointer;
-            &::after{
+            &[data-has-notification="true"]::after{
                 display: block;
                 position: absolute;
                 content: "";
